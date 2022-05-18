@@ -11,7 +11,7 @@ let tag = `@${m.sender.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
     let waofc = `@${'0'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
- let ow = `@${'6285828764046'.split('@')[0]}`
+ let ow = `@${'6285850539404'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
 
     if (m.chat.endsWith('broadcast')) return
@@ -19,8 +19,8 @@ let tag = `@${m.sender.split('@')[0]}`
     if (m.isGroup) return
     if (db.data.settings.groupOnly) return
     let user = global.db.data.users[m.sender]
-    let tks = `Saya adalah ZIFABOTZ salah satu Bot Whatsapp yang diciptakan oleh : ${ow}
-Silahkan tekan Tombol ${user.registered ? '"Menu"' : '"Verify"'} untuk ${user.registered ? 'melihat list command dari' : 'mendaftar sebelum menggunakan'} zifabotz.
+    let tks = `Saya adalah BotJr salah satu Bot Whatsapp yang diciptakan oleh : ${ow}
+Silahkan tekan Tombol ${user.registered ? '"Menu"' : '"Verify"'} untuk ${user.registered ? 'melihat list command dari' : 'mendaftar sebelum menggunakan'} BotJr.
 
 *Official Bot By ${waofc}*
 *Powered By ${ow}*`
