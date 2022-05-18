@@ -6,10 +6,10 @@ let handler = async(m, { conn }) => {
 ╭─[ *_STORE_* ]─✧
 ╰─────···`.trim()
   const button = {
-        buttonText: 'STORE ZIFABOTZ',
+        buttonText: 'STORE JAROTBOTZ',
         description: kontol,
-        sections:  [{title: "STORE ZIFABOTZ", rows: [
-        {title: 'sewa zifabotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewazifabotz1"},
+        sections:  [{title: "STORE JAROTBOTZ", rows: [
+        {title: 'sewa Jarotbotz', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewaJarotbotz1"},
         {title: 'Sewa satbotsss', description: "Sewa bot dengan memasukkan bot ke grup kamu", rowId:".sewasat"},
         {title: 'Jasa run mursid', description: "jasa run bot", rowId:".runbotmursid"},
         {title: 'Pasang iklan di bot', description: "jasa pemasang iklan di bot", rowId:".lucbot"},
