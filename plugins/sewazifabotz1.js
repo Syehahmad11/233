@@ -3,7 +3,7 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kontol = `
 ╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪SEWA ZIFABOTZ⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪SEWA JAROTBOTZ⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸ • *sewa zifabotz*          
 ║│ *LANGSUNG KE*
 ║│ *OWNER*
@@ -11,14 +11,14 @@ let handler = async(m, { conn }) => {
 📮 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ *_Tolong jangan dispam_*
 _____••••••••• 
-⬣━〔Store By Rozi〕━⬣
+⬣━〔Store By JAROT〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌`.trim()
   const button = {
         buttonText: '↱ 🄺🄻🄸🄺 🅂🄸🄽🄸 ↲',
         description: kontol,
         sections:  [{title: "STORE SEWA", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
-        {title: 'nomor owner rozi', description: "kalau mau sewa silahkan cht owner zifabotz", rowId:".sewazif"},
+        {title: 'nomor owner JAROT', description: "kalau mau sewa silahkan cht owner BotJr", rowId:".sewazif"},
         {title: 'RULES', description: "rules zifabotz", rowId:".rules"},
        ] }],
         listType: 1
