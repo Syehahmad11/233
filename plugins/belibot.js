@@ -10,9 +10,9 @@ let handler = async(m, { conn }) => {
 𝗦𝗶𝗹𝗮𝗵𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
 ╭═══════════════════════
 ║╭──❉ 〔 𝐕𝐈𝐀 𝐌𝐎𝐁𝐈𝐋𝐄 〕 ❉──────
-║│➸ *DANA* : 085828764046
-║│➸ *PULSA*: 085828764046
-║│➸ *GOPAY*: 085828764046
+║│➸ *DANA* : 085850539404
+║│➸ *PULSA*: 085850539404
+║│➸ *GOPAY*: *_GADA_*
 ║╰─────────
 ▌│█║▌║▌║║▌║▌║█│▌▌│█║▌║▌║║▌║▌║█│
 ╰═══════════════════════
@@ -23,7 +23,7 @@ let handler = async(m, { conn }) => {
         sections:  [{title: "Silahkan di pilih", rows: [
         {title: '4 Bulan', description: "Rp30.000\nSewa bot selama 4 bulan.", rowId:".payment"},
         {title: '1 Bulan', description: "Rp15.000\nSewa bot selama 1 bulan.", rowId:".payment"},
-        {title: '8 bulan', description: "Rp40.000\nSewa bot selama 8 bulan.", rowId:".payment"},
+        {title: '8 bulan', description: "Rp60.000\nSewa bot selama 8 bulan.", rowId:".payment"},
         {title: 'Owner', description: "Chat owner nya jika ingin sewa bot.", rowId:".owner"},
         {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
        ] }],
@@ -32,7 +32,7 @@ let handler = async(m, { conn }) => {
     conn.sendMessage(m.chat, button, MessageType.listMessage, { quoted: m })
 }
 handler.tags = ['main']
-handler.command = /^(sewazifa)$/i
-handler.help = ['sewazifa']
+handler.command = /^(sewabotjr)$/i
+handler.help = ['sewabotjr']
 module.exports = handler
 //R-Txzy
