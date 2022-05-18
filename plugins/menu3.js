@@ -7,14 +7,14 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
 let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *_JAROTBOTZ_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 
 ╭══════════════════๑—————————
 *║╭──❉ 〔Utama〕*
 ║│➸.onketik
-║│➸.sewazifa
+║│➸.sewaBotJr
 ║│➸.biodata
 ║│➸.groupbot
 ║│➸.iklan
@@ -28,7 +28,7 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.runbotmursid
 ║│➸.sewa
 ║│➸.sewasat
-║│➸.sewazifabotz1
+║│➸.sewaBotJr
 ║│➸.menu
 ║│➸.help
 ║│➸.?
@@ -547,27 +547,27 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *╰───❉*
 
 
-  ⬣━〔Powered By Rozi〕━⬣
-© zifabotz`
+  ⬣━〔Powered By JAROT〕━⬣
+© Jarotbotz`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
-  sumberImg = await (await fetch(fla + 'ZIFABOTZ')).buffer()
+  sumberImg = await (await fetch(fla + 'JAROTBOTZ')).buffer()
   image = (await conn.prepareMessage('6285826114932@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
   res = await conn.prepareMessageFromContent(m.chat, {
     "productMessage": {
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 𝚉𝙸𝙵𝙰𝙱𝙾𝚃𝚉",
+        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 JAROTBOTZ",
         "description": '\n' + wm + '\n' + str,
-        "retailerId": "Thanks For zifabotz !",
+        "retailerId": "Thanks For Jarotbotz !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6285828764046@s.whatsapp.net",
+      "businessOwnerJid": "6285850539404@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
@@ -587,14 +587,14 @@ let wm = global.botwm
 async (m, { conn }) => {
 
 let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *_JAROTBOTZ_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 
 ╭══════════════════๑—————————
 *║╭──❉ 〔Utama〕*
 ║│➸.onketik
-║│➸.sewazifa
+║│➸.sewaBotJr
 ║│➸.biodata
 ║│➸.groupbot
 ║│➸.iklan
@@ -608,7 +608,7 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.runbotmursid
 ║│➸.sewa
 ║│➸.sewasat
-║│➸.sewazifabotz1
+║│➸.sewaBotJr
 ║│➸.menu
 ║│➸.help
 ║│➸.?
@@ -1115,7 +1115,7 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.viadana
 ║│➸.viapulsa
 ║│➸.yutube
-║│➸.zifa1
+║│➸.Jarot1
 ║│➸.zifa2
 ║│➸.owner
 ║│➸.creator
@@ -1127,27 +1127,27 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *╰───❉*
 
 
-  ⬣━〔Powered By Rozi〕━⬣
-© zifabotz`
+  ⬣━〔Powered By JAROT〕━⬣
+© Jarotbotz`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 
-  sumberImg = await (await fetch(fla + 'ZIFABOTZ')).buffer()
+  sumberImg = await (await fetch(fla + 'JAROTBOTZ')).buffer()
   image = (await conn.prepareMessage('6285826114932@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
   res = await conn.prepareMessageFromContent(m.chat, {
     "productMessage": {
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 𝚉𝙸𝙵𝙰𝙱𝙾𝚃𝚉",
+        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 JAROTBOTZ",
         "description": '\n' + wm + '\n' + str,
-        "retailerId": "Thanks For zifabotz !",
+        "retailerId": "Thanks For Jarotbotz !",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6285828764046@s.whatsapp.net",
+      "businessOwnerJid": "6285850539404@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": true
