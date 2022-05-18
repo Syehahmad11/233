@@ -237,7 +237,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Daftar╼-",
-                                    "description": "Daftar diri anda di zifabotz",
+                                    "description": "Daftar diri anda di Jarotbotz",
                                     "rowId": ".daftar"
                                 }, {
  "title":      "|🎲| ❯╾Setelan grub╼-",
@@ -245,15 +245,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di zifabotz",
+                                    "description": "store di Jarotbotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot zifa",
+                                    "description": "bergabung bersama bot Jr",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|🙇‍♂️| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot zifa",
+                                    "description": "bergabung di grub bersama bot Jr",
                                     "rowId": ".gcbot"
                                 }, {
   "title":  "|📒| ❯╾biodata owner╼-",
