@@ -2,20 +2,20 @@ let handler  = async (m, { conn, usedPrefix }) => {
 conn.reply(m.chat, `
 ╭═══════════════════════
 ║╭──❉ 〔 INFO OWNER 〕 ❉────── 
-║│➸ ```NAMA``` : ROZI
-║│➸ ```UMUR``` : 15thn
-║│➸ ```ASAL``` : PONTIANAK
+║│➸ ```NAMA``` : JAROT
+║│➸ ```UMUR``` : 18thn
+║│➸ ```ASAL``` : PASURUAN
 ║│➸ ```OFFICIAL GRUP``` :
-https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv
-║│➸ ```ISTAGRAM``` : http://instagram.com/zalfapontianak
-║│➸ ```WHATSAPP``` : http://wa.me/6285828764046
+https://chat.whatsapp.com/E5l0ofPuMxG3H8ZhMRyI7e
+║│➸ ```ISTAGRAM``` : https://www.instagram.com/sdlran
+║│➸ ```WHATSAPP``` : https://wa.me/6285850539404
 ╰────────❉
 `.trim(), m)
 }
 
-handler.help = ['inforozi']
+handler.help = ['infojarot']
 handler.tags = ['main', 'utama']
-handler.command = /^(inforozi)$/i
+handler.command = /^(infojarot)$/i
 
 handler.exp = 150
 
