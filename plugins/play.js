@@ -40,7 +40,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     surface : 1,
     message: `❏ Jarotbotz`, 
     orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/ad0f27b9d5e469827e654.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/6489e56b4c7761bdd6bc6.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
