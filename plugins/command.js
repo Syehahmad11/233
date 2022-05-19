@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
 let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ ZIFABOTZ ]─✧
+╭─[ JAROTBOTZ ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
+⬣━〔Powered By Jarot━⬣
 ▌│█║▌║▌║║▌║▌║█│▌
 *║╭──❉ 〔Utama〕*
 ║│➸.onketik
@@ -538,7 +538,7 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *║╭──❉ 〔Tanpa Kategori〕*
 *╰───❉*`
 
-conn.sendButton( m.chat, caption, `©️ zifabotz`, `CREATORBOT`, `.owner`, m)
+conn.sendButton( m.chat, caption, `©️ Jarotbotz`, `CREATORBOT`, `.owner`, m)
 
        }
        
