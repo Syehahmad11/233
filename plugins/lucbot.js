@@ -11,7 +11,7 @@ let handler = async(m, { conn }) => {
 📮 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ *_HARAP TIDAK SPAM_*
 _____••••••••• 
-⬣━〔Store By Rozi〕━⬣
+⬣━〔Store By Jarot〕━⬣
 ▌│█║▌║▌║║▌║▌║█│▌`.trim()
   const button = {
         buttonText: '↱ 🄺🄻🄸🄺 🅂🄸🄽🄸 ↲',
@@ -19,7 +19,7 @@ _____•••••••••
         sections:  [{title: "STORE LUCBOT", rows: [
         {title: 'Menu utama', description: "Kembali ke Menu Utama", rowId:".?"},
         {title: 'nomor siegrin', description: "kalau mau pasang iklan silahkan cht siegrin", rowId:".ownersiegrin"},
-        {title: 'RULES', description: "rules zifabotz", rowId:".rules"},
+        {title: 'RULES', description: "rules Jarotbotz", rowId:".rules"},
        ] }],
         listType: 1
        }
