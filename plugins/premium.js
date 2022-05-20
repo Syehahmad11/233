@@ -5,10 +5,10 @@ let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&s
 let info = `
 ╭═══ *〘 MEMEBER PREMIUM 〙*
 ║ ┅ ๑————————————๑
-║┊ ⌲ _40K (premium 120 hari)_
-║┊ ⌲ _30K (premium 90 hari)_
-║┊ ⌲  _20k (60 hari premium)_
-║┊ ⌲  _10k (30 hari premium)_
+║┊ ⌲ _50K (premium 120 hari)_
+║┊ ⌲ _35K (premium 90 hari)_
+║┊ ⌲  _25k (60 hari premium)_
+║┊ ⌲  _15k (30 hari premium)_
 ╰═ ┅ ═══════
 
 ༅ _*KEUNTUNGAN USER PREMIUM*_
@@ -26,7 +26,7 @@ let info = `
 
 ◪ *Jika Minat Hubungi owner kami*
 ◪ *Atau Masuk Group Official Bot*
-_https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv_
+_https://chat.whatsapp.com/E5l0ofPuMxG3H8ZhMRyI7e_
 
 ▌│█║▌║▌║║▌║▌║█│▌
 ▌│█║▌║▌║║▌║▌║█│▌
