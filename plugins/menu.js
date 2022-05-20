@@ -396,7 +396,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".waifu"
                                 }, { 
 "title": "⋮☰|🅿️|┅MENU———๑「 31 」",
-                                    "description": "profile anda di zifabotz",
+                                    "description": "profile anda di Jarotbotz",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "⋮☰|👩‍⚖️|┅MENU———๑「 32 」",
