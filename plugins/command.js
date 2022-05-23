@@ -20,7 +20,7 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.panduan
 ║│➸.runbotmursid
 ║│➸.sewa
-║│➸.sewasat
+║│➸.sewabot
 ║│➸.sewazifabotz1
 ║│➸.menu
 ║│➸.help
@@ -483,7 +483,7 @@ let caption = `♡   ❍ㅤ  ⎙ㅤ ⌲
 
 *║╭──❉ 〔Jadi Bot〕*
 ║│➸.getcode
-║│➸.jadibot (Limit)
+║│➸.jadibot (premium)
 ║│➸.listjadibot
 ║│➸.ljb
 ║│➸.berhenti
