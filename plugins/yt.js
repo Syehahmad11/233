@@ -5,10 +5,10 @@ let str = `
 ╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪YOUTUBE⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸ *_YOUTUBE OWNER_*
-║│➸  *https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ*
+║│➸  *https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ*
 ╰─────────❉
 ▌│█║▌║▌║║▌║▌║█│▌
-⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪⸙ by.rozi
+⳹ ❋ཻུ۪۪Oscarbotz⳹ ❋ཻུ۪۪⸙ by.Jarot
 `.trim()
 conn.sendButton(m.chat, str, `${botol}`, `⋮☰ Menu`, `.menu`, m)
 }
